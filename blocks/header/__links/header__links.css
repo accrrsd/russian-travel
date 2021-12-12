@@ -1,6 +1,6 @@
 .header__links{
   list-style-type: none;
-  grid-area: links;
+  grid-area: header__links;
   justify-self: end;
 
   display: flex;

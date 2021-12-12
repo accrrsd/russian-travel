@@ -1,0 +1,66 @@
+/* .footer{
+  display: grid;
+  grid-template-areas:"footer__links footer__copyright";
+  grid-template-columns: repeat(2, 1fr);
+
+  margin: 92px 48px 24px;
+  max-width: 1184px;
+  max-height: 18px;
+}
+
+@media screen and (max-width: 1024px){
+  .footer{
+    max-width: 928px;
+  }
+}
+@media screen and (max-width: 768px){
+  .footer{
+  margin: 88px 24px 24px;
+  max-width: 720px;
+  }
+}
+@media screen and (max-width: 320px){
+  .footer{
+    margin: 64px auto 16px 16px;
+    grid-template-columns: 310px;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "footer__links"
+    "footer__copyright";
+    max-width: 186px;
+    max-height: 310px;
+  }
+} */
+
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin: 92px 48px 24px;
+  max-width: 1184px;
+  max-height: 18px;
+}
+
+@media screen and (max-width: 1024px){
+  .footer{
+    max-width: 928px;
+  }
+}
+@media screen and (max-width: 768px){
+  .footer{
+  margin: 88px 24px 24px;
+  max-width: 720px;
+  }
+}
+@media screen and (max-width: 320px){
+  .footer{
+    margin: 64px auto 16px 16px;
+    max-width: 186px;
+    max-height: 310px;
+  }
+}
+
+
+/* todo: Попробовать сделать футер на флексе. Т.к там четкий отступ между копирайтом и списком */

@@ -1,6 +1,7 @@
 .places__image{
   max-width: 100%;
   background-size: cover;
+  background-position: center;
   grid-area: image;
 }
 

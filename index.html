@@ -15,11 +15,11 @@
       
       <ul class="header__links">
         <li class="header__links-item">
-          <a href="" class="header__lang-link header__lang-link_active">Ru</a>
+          <a href="#" class="header__lang-link header__lang-link_active link">Ru</a>
         </li>
 
         <li class="header__links-item">
-          <a href="" class="header__lang-link">En</a>
+          <a href="#" class="header__lang-link link">En</a>
         </li>
       </ul>
 
@@ -30,7 +30,7 @@
       <section class="lead">
         <h1 class="lead__title">Путешествия<br>по России</h1>
         <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-        <img class="lead__image" src="/src/img/lead-polka.jpg" alt="Девушка в купе на фоне карты маршрута">
+        <div class="lead__image"></div>
         <h3 class="lead__caption">ваша полка &mdash; верхняя</h3>
       </section>
 
@@ -60,18 +60,18 @@
       </section>
 
       <section class="photo-grid">
-        <div class="photo-grid__item"></div>
-        <div class="photo-grid__item"></div>
-        <div class="photo-grid__item"></div>
-        <div class="photo-grid__item"></div>
-        <div class="photo-grid__item"></div>
-        <div class="photo-grid__item"></div>
-        <div class="photo-grid__item"></div>
-        <div class="photo-grid__item"></div>
-        <div class="photo-grid__item"></div>
-        <div class="photo-grid__item"></div>
-        <div class="photo-grid__item"></div>
-        <div class="photo-grid__item"></div>
+        <div class="photo-grid__items"></div>
+        <div class="photo-grid__items"></div>
+        <div class="photo-grid__items"></div>
+        <div class="photo-grid__items"></div>
+        <div class="photo-grid__items"></div>
+        <div class="photo-grid__items"></div>
+        <div class="photo-grid__items"></div>
+        <div class="photo-grid__items"></div>
+        <div class="photo-grid__items"></div>
+        <div class="photo-grid__items"></div>
+        <div class="photo-grid__items"></div>
+        <div class="photo-grid__items"></div>
       </section>
 
       <section class="places">
@@ -82,7 +82,7 @@
   
           <div class="places__website">
             <h4 class="places__url-heading">URL</h4>
-            <a href="http://park-kosa.ru" class="places__link">park-kosa.ru</a>
+            <a href="http://park-kosa.ru" class="places__link link">park-kosa.ru</a>
           </div>
           <div class="places__text">
             <p class="places__paragraph">
@@ -105,7 +105,7 @@
   
           <div class="places__website">
             <h4 class="places__url-heading">URL</h4>
-            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="places__link">National Geographic</a>
+            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="places__link link">National Geographic</a>
           </div>
           <div class="places__text">
           <p class="places__paragraph">
@@ -127,7 +127,7 @@
   
           <div class="places__website">
             <h4 class="places__url-heading">URL</h4>
-            <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="places__link">Facebook</a>
+            <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="places__link link">Facebook</a>
           </div>
   
           <div class="places__text">
@@ -149,7 +149,7 @@
   
           <div class="places__website">
             <h4 class="places__url-heading">URL</h4>
-            <a href="https://vk.com/baikalmile" class="places__link">https://vk.com/baikalmile</a>
+            <a href="https://vk.com/baikalmile" class="places__link link">https://vk.com/baikalmile</a>
           </div>
 
           <div class="places__text">
@@ -171,7 +171,7 @@
   
           <div class="places__website">
             <h4 class="places__url-heading">URL</h4>
-            <a href="http://vodlozero.ru/" class="places__link">http://vodlozero.ru/</a>
+            <a href="http://vodlozero.ru/" class="places__link link">http://vodlozero.ru/</a>
           </div>
   
           <div class="places__text">
@@ -183,11 +183,25 @@
   
       </section>
 
-      <section class="cover"></section>
+      <section class="cover">
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
+          <h2 class="cover__title">До Байкала &#171;на собаках&#187;</h2>
+          <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</h3>
+        </a>
+      </section>
 
     </div>
 
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <ul class="footer__links">
+        <li><a href="https://yandex.ru/maps" class="footer__link link">Карты</a></li>
+        <li><a href="https://yandex.ru/pogoda" class="footer__link link">Погода</a></li>
+        <li><a href="https://rasp.yandex.ru" class="footer__link link">Расписание</a></li>
+        <li><a href="https://calendar.yandex.ru" class="footer__link link">Календарь</a></li>
+        <li><a href="https://travel.yandex.ru" class="footer__link link">Путешествия</a></li>
+      </ul>
+      <p class="footer__copyright">&#169; 2020. Даниил</p>
+    </footer>
 
   </div>
 </body>

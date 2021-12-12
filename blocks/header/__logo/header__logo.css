@@ -1,5 +1,5 @@
 .header__logo{
-  grid-area: logo;
+  grid-area: header__logo;
   margin-top: 28px;
   
   width: 176px;

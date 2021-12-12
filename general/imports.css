@@ -1,5 +1,7 @@
+/* general */
 @import url(style.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/link/link.css);
 
 /* header */
 @import url(../blocks/header/header.css);
@@ -26,7 +28,7 @@
 
 /* photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__items/photo-grid__items.css);
 
 /* places */
 @import url(../blocks/places/places.css);
@@ -38,9 +40,21 @@
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__text/places__text.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
-/* current place */
+/* current place of places */
 @import url(../blocks/places/__image/_place/places__image_place_kosa.css);
 @import url(../blocks/places/__image/_place/places__image_place_kola.css);
 @import url(../blocks/places/__image/_place/places__image_place_altai.css);
 @import url(../blocks/places/__image/_place/places__image_place_karelia.css);
 @import url(../blocks/places/__image/_place/places__image_place_baikal.css);
+
+/* cover */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

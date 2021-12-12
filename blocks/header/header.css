@@ -1,6 +1,6 @@
 .header{
   display: grid;
-  grid-template-areas:"logo links";
+  grid-template-areas:"header__logo header__links";
   grid-template-columns: repeat(2, 1fr);
   margin: 0 48px;
   max-width: 1184px;

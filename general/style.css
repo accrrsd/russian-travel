@@ -1,0 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+}
+body{
+  background: #2A2C2F;
+}

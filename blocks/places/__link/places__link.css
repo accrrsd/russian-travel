@@ -1,0 +1,15 @@
+.places__link{
+  max-width: 100%;
+  height: 22px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 122%;
+  
+  text-decoration-line: underline;
+  
+  display: block;
+  margin-top: 12px;
+}

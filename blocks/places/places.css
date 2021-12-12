@@ -1,0 +1,28 @@
+.places{
+  margin:92px auto 0;
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+}
+@media screen and (max-width: 1024px){
+  .places{
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .places{
+    margin:88px auto 0;
+    max-width: 720px;
+    row-gap: 72px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .places{
+    margin:64px auto 0;
+    max-width: 320px;
+    row-gap: 50px;
+  }
+}

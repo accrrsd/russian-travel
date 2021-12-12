@@ -1,0 +1,25 @@
+.header__links{
+  list-style-type: none;
+  grid-area: links;
+  justify-self: end;
+
+  display: flex;
+  gap: 18px;
+
+  margin-top: 46px;
+}
+
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 320px){
+  .header__links{
+    margin-top: 30px;
+  }
+}

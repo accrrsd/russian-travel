@@ -1,0 +1,10 @@
+.header__navigation{
+  grid-area: header__links;
+  justify-self: end;
+  margin-bottom: 6px;
+}
+@media screen and (max-width: 320px){
+  .header__navigation{
+    margin-bottom: 8px;
+  }
+}

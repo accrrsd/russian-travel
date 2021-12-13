@@ -1,10 +1,23 @@
+/* like grid */
 .header{
   display: grid;
   grid-template-areas:"header__logo header__links";
   grid-template-columns: repeat(2, 1fr);
   margin: 28px auto 0;
   max-width: 1184px;
+  max-height: 52px;
+  align-items: end;
 }
+
+/* like flex */
+/* .header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 28px auto 0;
+  max-width: 1184px;
+} */
 
 @media screen and (max-width: 1280px){
 
@@ -23,5 +36,6 @@
   .header{
     margin: 16px auto 0;
     max-width: 288px;
+    max-height: 42px;
   }
 }

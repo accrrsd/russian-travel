@@ -40,7 +40,7 @@
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__text/places__text.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
-/* current place of places */
+/* each place of places */
 @import url(../blocks/places/__image/_place/places__image_place_kosa.css);
 @import url(../blocks/places/__image/_place/places__image_place_kola.css);
 @import url(../blocks/places/__image/_place/places__image_place_altai.css);

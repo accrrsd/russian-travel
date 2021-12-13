@@ -5,8 +5,7 @@
 
   display: flex;
   gap: 18px;
-
-  margin-top: 46px;
+  margin-bottom: 6px;
 }
 
 @media screen and (max-width: 1280px){
@@ -20,6 +19,6 @@
 }
 @media screen and (max-width: 320px){
   .header__links{
-    margin-top: 30px;
+    margin-bottom: 8px;
   }
 }

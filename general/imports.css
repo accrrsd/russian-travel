@@ -1,4 +1,5 @@
 /* general */
+@import url(normalize.css);
 @import url(style.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/link/link.css);
@@ -29,6 +30,7 @@
 /* photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__items/photo-grid__items.css);
+@import url(../blocks/photo-grid/__items/_pic/photo-grid__items_pic.css);
 
 /* places */
 @import url(../blocks/places/places.css);

@@ -3,8 +3,8 @@
   display: grid;
   max-width: 1184px;
   gap: 16px;
-  grid-template-columns: repeat(4,minmax(0,284px));
-  grid-template-rows: repeat(auto-fit,minmax(0,213px));
+  grid-template-columns: repeat(4,minmax(min-content,284px));
+  grid-template-rows: repeat(auto-fit,minmax(min-content,213px));
   grid-auto-rows: 213px;
 }
 
@@ -12,8 +12,8 @@
   .photo-grid{
   max-width: 928px;
   gap: 14px;
-  grid-template-columns: repeat(3,minmax(0,300px));
-  grid-template-rows: repeat(auto-fit,minmax(0,225px));
+  grid-template-columns: repeat(3,minmax(min-content,300px));
+  grid-template-rows: repeat(auto-fit,minmax(min-content,225px));
   grid-auto-rows: 300px;
   }
 }
@@ -23,8 +23,8 @@
     margin: 88px auto 0;
     max-width: 720px;
     gap: 16px;
-    grid-template-columns: repeat(2,minmax(0,352px));
-    grid-template-rows: repeat(auto-fit,minmax(0,254px));
+    grid-template-columns: repeat(2,minmax(min-content,352px));
+    grid-template-rows: repeat(auto-fit,minmax(min-content,254px));
     grid-auto-rows: 254px;
   }
 }
@@ -34,8 +34,8 @@
     margin: 64px auto 0;
     max-width: 288px;
     gap: 12px;
-    grid-template-columns: repeat(1,minmax(0,288px));
-    grid-template-rows: repeat(auto-fit,minmax(0,216px));
+    grid-template-columns: repeat(1,minmax(min-content,288px));
+    grid-template-rows: repeat(auto-fit,minmax(min-content,216px));
     grid-auto-rows: 216px;
   }
 }

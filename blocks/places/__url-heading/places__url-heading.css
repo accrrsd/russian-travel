@@ -2,7 +2,7 @@
   max-width: 100%;
   height: 12px;
 
-  font-family: Inter;
+  font-family: Inter, Arial;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -27,7 +27,4 @@
 }
 
 @media screen and (max-width: 320px){
-  .places__url-heading{
-    line-height: 100%;
-  }
 }

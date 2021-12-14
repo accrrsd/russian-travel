@@ -4,6 +4,8 @@
   border: 0;
   color: white;
   box-sizing: border-box;
+  /* Сглаживание */
+  -webkit-font-smoothing: antialiased; 
 }
 body{
   background: #2A2C2F;

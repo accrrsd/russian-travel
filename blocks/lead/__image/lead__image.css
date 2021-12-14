@@ -6,16 +6,15 @@
   object-fit: cover;
 } */
 
-
 /* like div */
-.lead__image:before{
-  content: "";
+.lead__image:before {
+  content: '';
   display: block;
   width: 0;
   height: 0;
   padding-top: 62.6%;
 }
-.lead__image{
+.lead__image {
   max-width: 100%;
   background-image: url(../../../src/img/lead-polka.jpg);
   background-position: center;
@@ -23,25 +22,23 @@
   margin: 64px auto 0;
 }
 
-
-@media screen and (max-width: 1024px){
-  .lead__image{
+@media screen and (max-width: 1024px) {
+  .lead__image {
     /* max-width: 928px; */
     max-height: 580px;
     margin: 56px auto 0;
   }
 }
 
-@media screen and (max-width: 768px){
-  .lead__image{
+@media screen and (max-width: 768px) {
+  .lead__image {
     /* max-width: 768px; */
     max-height: 480px;
-    margin: 56px auto 0;
   }
 }
 
-@media screen and (max-width: 320px){
-  .lead__image{
+@media screen and (max-width: 320px) {
+  .lead__image {
     /* max-width: 320px; */
     max-height: 200px;
     margin: 40px auto 0;

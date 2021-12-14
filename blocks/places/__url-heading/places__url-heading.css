@@ -1,4 +1,4 @@
-.places__url-heading{
+.places__url-heading {
   max-width: 100%;
   height: 12px;
 
@@ -12,19 +12,11 @@
   /* identical to box height, or 100% */
 
   letter-spacing: 2px;
-  color: #AAAAAA;
+  color: #aaaaaa;
 }
 
-
-@media screen and (max-width: 1024px){
-
-}
-
-@media screen and (max-width: 768px){
-  .places__url-heading{
+@media screen and (max-width: 768px) {
+  .places__url-heading {
     line-height: 100%;
   }
-}
-
-@media screen and (max-width: 320px){
 }

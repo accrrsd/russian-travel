@@ -1,14 +1,14 @@
-.places__link{
+.places__link {
   max-width: 100%;
-  
+
   font-family: Inter, Arial;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 122%;
-  
+
   text-decoration-line: underline;
-  
+
   display: block;
   margin-top: 12px;
 }

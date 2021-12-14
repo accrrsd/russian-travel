@@ -1,4 +1,4 @@
-.footer{
+.footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -8,24 +8,21 @@
   max-height: 18px;
 }
 
-@media screen and (max-width: 1024px){
-  .footer{
+@media screen and (max-width: 1024px) {
+  .footer {
     max-width: 928px;
   }
 }
-@media screen and (max-width: 768px){
-  .footer{
-  margin: 88px 24px 24px;
-  max-width: 720px;
+@media screen and (max-width: 768px) {
+  .footer {
+    margin: 88px 24px 24px;
+    max-width: 720px;
   }
 }
-@media screen and (max-width: 320px){
-  .footer{
+@media screen and (max-width: 320px) {
+  .footer {
     margin: 64px auto 16px 16px;
     max-width: 186px;
     max-height: 310px;
   }
 }
-
-
-/* todo: Попробовать сделать футер на флексе. Т.к там четкий отступ между копирайтом и списком */

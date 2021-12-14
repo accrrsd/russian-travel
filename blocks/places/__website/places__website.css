@@ -1,20 +1,12 @@
-.places__website{
+.places__website {
   max-width: 100%;
   grid-area: website;
   justify-self: start;
   align-self: end;
 }
 
-
-@media screen and (max-width: 1024px){
-}
-
-@media screen and (max-width: 768px){
-  
-}
-
-@media screen and (max-width: 320px){
-  .places__website{
+@media screen and (max-width: 320px) {
+  .places__website {
     justify-self: unset;
     margin-left: 16px;
   }

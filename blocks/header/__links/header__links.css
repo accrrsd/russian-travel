@@ -1,19 +1,5 @@
-.header__links{
+.header__links {
   list-style-type: none;
   display: flex;
   gap: 18px;
-
-}
-
-@media screen and (max-width: 1280px){
-
-}
-@media screen and (max-width: 1024px){
-
-}
-@media screen and (max-width: 768px){
-
-}
-@media screen and (max-width: 320px){
-
 }

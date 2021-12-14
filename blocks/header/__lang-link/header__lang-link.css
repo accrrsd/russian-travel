@@ -1,4 +1,4 @@
-.header__lang-link{
+.header__lang-link {
   max-width: 30px;
   /* max-height: 28px; */
   font-family: Inter, Arial;
@@ -9,17 +9,8 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 1280px){
-
-}
-@media screen and (max-width: 1024px){
-
-}
-@media screen and (max-width: 768px){
-
-}
-@media screen and (max-width: 320px){
-  .header__lang-link{
+@media screen and (max-width: 320px) {
+  .header__lang-link {
     font-size: 18px;
     line-height: 111%;
     max-width: 22px;

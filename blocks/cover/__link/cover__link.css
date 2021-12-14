@@ -10,9 +10,9 @@
 }
 
 .cover__link:before {
-  content: "";
+  content: '';
   display: block;
-  background-color: #2A2C2F;;
+  background-color: #2a2c2f;
   opacity: 0.3;
   position: absolute;
   top: 0;

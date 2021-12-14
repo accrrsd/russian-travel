@@ -11,15 +11,8 @@
   text-align: center;
 }
 
-
-@media screen and (max-width: 1024px){
-}
-
-@media screen and (max-width: 768px){
-}
-
-@media screen and (max-width: 320px){
-  .cover__subtitle{
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
     font-size: 14px;
     line-height: 114%;
     max-width: 288px;

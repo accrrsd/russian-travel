@@ -10,28 +10,27 @@
 }
 
 .cover:before {
-  content: "";
+  content: '';
   display: block;
   width: 0;
   height: 0;
   padding-top: 62.6%;
 }
 
-
-@media screen and (max-width: 1024px){
-  .cover{
+@media screen and (max-width: 1024px) {
+  .cover {
     margin: 92px 0 0;
     max-width: 1024px;
   }
 }
-@media screen and (max-width: 768px){
-  .cover{
+@media screen and (max-width: 768px) {
+  .cover {
     margin: 90px 0 0;
     max-width: 768px;
   }
 }
-@media screen and (max-width: 320px){
-  .cover{
+@media screen and (max-width: 320px) {
+  .cover {
     margin: 66px 0 0;
     max-width: 320px;
   }

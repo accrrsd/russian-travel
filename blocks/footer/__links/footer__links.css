@@ -1,4 +1,4 @@
-.footer__links{
+.footer__links {
   display: flex;
   flex-direction: row;
   gap: 18px;
@@ -6,16 +6,8 @@
   /* grid-area: footer__links; */
 }
 
-
-
-@media screen and (max-width: 1024px){
-
-}
-@media screen and (max-width: 768px){
-
-}
-@media screen and (max-width: 320px){
-  .footer__links{
+@media screen and (max-width: 320px) {
+  .footer__links {
     flex-direction: column;
     gap: 32px;
   }

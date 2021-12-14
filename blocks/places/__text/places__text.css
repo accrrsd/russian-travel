@@ -1,5 +1,5 @@
 /* like grid */
-.places__text{
+.places__text {
   grid-area: text;
   display: grid;
   grid-template-columns: 100%;
@@ -17,17 +17,14 @@
 } */
 
 
-@media screen and (max-width: 1024px){
-}
-
-@media screen and (max-width: 768px){
-  .places__text{
+@media screen and (max-width: 768px) {
+  .places__text {
     row-gap: 25px;
   }
 }
 
-@media screen and (max-width: 320px){
-  .places__text{
+@media screen and (max-width: 320px) {
+  .places__text {
     margin-left: 16px;
   }
 }

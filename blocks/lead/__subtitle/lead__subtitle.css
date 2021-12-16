@@ -16,7 +16,7 @@
   .lead__subtitle {
     max-width: 288px;
     /* max-height: 40px; */
-    margin: 16 auto 0;
+    margin: 16px auto 0;
     font-size: 16px;
     line-height: 125%;
   }

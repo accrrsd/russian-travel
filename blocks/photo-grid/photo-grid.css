@@ -5,8 +5,8 @@
   gap: 16px;
   grid-template-columns: repeat(4, minmax(min-content, 284px));
   grid-template-rows: repeat(auto-fit, minmax(min-content, 213px));
-  /* grid-template-columns: repeat(4, 284px); */
   /* grid-template-rows: repeat(auto-fit, 213px); */
+  /* grid-template-columns: repeat(4, 284px); */
   grid-auto-rows: 213px;
 }
 

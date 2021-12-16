@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
 
-  margin: 92px 48px 24px;
+  margin: 88px 48px 24px;
   max-width: 1184px;
 }
 
@@ -16,7 +16,7 @@
 @media screen and (max-width: 768px) {
   .footer {
     max-width: 720px;
-    margin: 88px 24px 24px;
+    margin: 91px 24px 24px;
   }
 }
 
@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 320px) {
   .footer {
-    margin: 64px auto 16px 16px;
+    margin: 57px auto 16px 16px;
     max-width: 186px;
   }
 }

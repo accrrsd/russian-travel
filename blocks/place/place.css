@@ -17,6 +17,7 @@
   .place {
     column-gap: 32px;
     grid-template-columns: minmax(min-content,440px) minmax(min-content,456px);
+    grid-template-rows: auto minmax(min-content, 440px);
     /* grid-template-columns: 440px minmax(0, 456px); */
   }
 }
@@ -51,6 +52,8 @@
 }
 
 
-
-/* todo: Две проблемы. Первая - если во второй колонке ссылка большая, она не сжимается и картинка вынуждена сильно уменьшаться. */
-/* todo: Вторая - текст ужимается слабо. Может быть сделать брейкпоинт на 400?*/
+@media screen and (max-width:320px) {
+  .place{
+    max-width: 320px;
+  }
+}

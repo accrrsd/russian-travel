@@ -2,13 +2,13 @@
   max-width: 158px;
   /* max-height: 14px; */
 
-  margin: 8px auto 0 0;
+  margin: 4px auto 0 0;
 
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
-  line-height: 14px;
+  line-height: 140%;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   white-space: nowrap;
@@ -22,6 +22,6 @@
 
 @media screen and (max-width: 320px) {
   .lead__caption {
-    margin: 8px auto 0 16px;
+    margin: 4px auto 0 16px;
   }
 }

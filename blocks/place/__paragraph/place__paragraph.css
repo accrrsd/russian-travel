@@ -1,0 +1,35 @@
+.place__paragraph {
+  max-width: 100%;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+/* Адаптив */
+@media screen and (max-width: 1000px){
+  .place__paragraph{
+    font-size: calc(16px + ((18 - 16) * (100vw / 1280)));
+  }
+}
+
+/* Макет */
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+/* Адаптив */
+@media screen and (max-width: 700px){
+  .place__paragraph{
+    font-size: calc(10px + ((18 - 10) * (100vw / 1280)));
+  }
+}
+/* Макет */
+@media screen and (max-width: 500px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}

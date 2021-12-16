@@ -1,6 +1,7 @@
 .footer__links {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 18px;
   list-style: none;
   /* grid-area: footer__links; */
@@ -9,6 +10,7 @@
 @media screen and (max-width: 320px) {
   .footer__links {
     flex-direction: column;
+    flex-wrap: nowrap;
     gap: 32px;
   }
 }

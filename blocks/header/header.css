@@ -5,7 +5,6 @@
   grid-template-columns: repeat(2, 1fr);
   margin: 28px auto 0;
   max-width: 1184px;
-  max-height: 52px;
   align-items: end;
 }
 
@@ -33,6 +32,5 @@
   .header{
     margin: 16px auto 0;
     max-width: 288px;
-    max-height: 42px;
   }
 }

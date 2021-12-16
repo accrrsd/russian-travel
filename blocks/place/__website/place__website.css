@@ -1,4 +1,4 @@
-.places__website {
+.place__website {
   max-width: 100%;
   grid-area: website;
   justify-self: start;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .places__website {
+  .place__website {
     justify-self: unset;
     margin-left: 16px;
   }

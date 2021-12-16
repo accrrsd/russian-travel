@@ -5,7 +5,6 @@
 
   margin: 92px 48px 24px;
   max-width: 1184px;
-  max-height: 18px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -13,16 +12,24 @@
     max-width: 928px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .footer {
-    margin: 88px 24px 24px;
     max-width: 720px;
+    margin: 88px 24px 24px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .footer{
+    max-width: 400px;
+    margin: 70px auto 20px 20px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer {
     margin: 64px auto 16px 16px;
     max-width: 186px;
-    max-height: 310px;
   }
 }

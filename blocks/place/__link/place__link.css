@@ -1,0 +1,26 @@
+.place__link {
+  max-width: 100%;
+
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 122%;
+
+  text-decoration-line: underline;
+
+  display: block;
+  margin-top: 12px;
+}
+/* Адаптив */
+@media screen and (max-width: 768px){
+  .place__link{
+    font-size: calc(10px + ((18 - 10) * (100vw / 1280)));
+  }
+}
+/* Макет */
+@media screen and (max-width: 500px) {
+  .place__link {
+    font-size: 16px;
+  }
+}

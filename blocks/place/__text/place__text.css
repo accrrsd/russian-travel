@@ -1,5 +1,8 @@
 /* like grid */
 .place__text {
+  margin: 0;
+  padding: 0;
+  
   grid-area: text;
   display: grid;
   grid-template-columns: 100%;

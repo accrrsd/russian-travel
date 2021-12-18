@@ -1,5 +1,8 @@
 /* like img */
 .lead__image{
+  margin: 0;
+  padding: 0;
+  
   max-width: 100%;
   max-height: 615px;
   margin: 64px auto 0;

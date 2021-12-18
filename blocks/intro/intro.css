@@ -1,4 +1,7 @@
 .intro {
+  margin: 0;
+  padding: 0;
+  
   margin: 92px auto 0 148px;
   max-width: 690px;
 }

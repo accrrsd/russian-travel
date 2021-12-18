@@ -1,4 +1,7 @@
 .link {
+  margin: 0;
+  padding: 0;
+  
   transition: opacity ease-in-out 0.3s;
   color: white;
 }

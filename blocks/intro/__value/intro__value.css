@@ -1,3 +1,6 @@
 .intro__value{
+  margin: 0;
+  padding: 0;
+  
   font-weight: normal;
 }

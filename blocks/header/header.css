@@ -1,5 +1,8 @@
 /* like grid */
 .header{
+  margin: 0;
+  padding: 0;
+  
   display: grid;
   grid-template-areas:"header__logo header__links";
   grid-template-columns: repeat(2, 1fr);

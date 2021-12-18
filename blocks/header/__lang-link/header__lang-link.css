@@ -1,4 +1,7 @@
 .header__lang-link {
+  margin: 0;
+  padding: 0;
+  
   max-width: 30px;
   /* max-height: 28px; */
   font-family: Inter, Arial, sans-serif;
